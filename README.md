@@ -5,17 +5,11 @@ This project explores and experiments with both kernel-based and end-to-end imag
 
 ## Directory structure
 1. patchCNN
-Folder training_data contains original sharp images from PASCAL VOC2010 dataset and GOPRO dataset and code for generating training dataset from 73 blur kernels.
+Contains python scripts for generating training dataset, model architecture, training and evaluating CNN model, and partial code for kernel deconvolution with GMM prior.
 
-Contains code used for  training patchCNN model, resultant model weights and evaluating model.
-
-Contains code for partial kernel deconvolution with GMM prior.
-
-Contains Matlab code uploaded by Sun et al used as reference in this project.
-
-2. evaluation_results
-Contains test benchmarks with blur, sharp and deblurred results for both GOPRO and synthetic non-uniform dataset
-Deblurred results from three algorithms: patchCNN, DeblurGAN, SRN-DeblurNet
-
-deblurgan.zip contains model weights per epoch from training deblurGAN. Finally evaluation results on test benchmarks.
-Full training codes for DeblurGAN from Raphael Meudec's repository: https://github.com/RaphaelMeudec/deblur-gan
+Access https://drive.google.com/drive/folders/1vAtmjor7JjmDoQILXNKsV99Xo2cPqbsw?usp=sharing for
+- original sharp images used for training (GOPRO and PASCAL VOC2010 datasets)
+- model weights resultant from training CNN to recognise 73 kernels
+- Matlab code from Sun et al used as reference 
+- evaluation results of patchCNN, DeblurGAN and SRN-DeblurNet on two test benchmarks
+- model weights from training DeblurGAN with only horizontal blur dataset after 5, 10, 15, 20, 25, 30, 35 epochs. (Full training codes for DeblurGAN from Raphael Meudec's repository: https://github.com/RaphaelMeudec/deblur-gan)
