@@ -13,10 +13,9 @@ Contains code for partial kernel deconvolution with GMM prior.
 
 Contains Matlab code uploaded by Sun et al used as reference in this project.
 
-2. deblurgan
-Contains model weights per epoch from training deblurGAN. Finally evaluation results on test benchmarks.
-Full training codes for DeblurGAN from Raphael Meudec's repository: https://github.com/RaphaelMeudec/deblur-gan
-
-3. evaluation_results
+2. evaluation_results
 Contains test benchmarks with blur, sharp and deblurred results for both GOPRO and synthetic non-uniform dataset
 Deblurred results from three algorithms: patchCNN, DeblurGAN, SRN-DeblurNet
+
+deblurgan.zip contains model weights per epoch from training deblurGAN. Finally evaluation results on test benchmarks.
+Full training codes for DeblurGAN from Raphael Meudec's repository: https://github.com/RaphaelMeudec/deblur-gan
