@@ -10,6 +10,11 @@ Contains python scripts for generating training dataset, model architecture, tra
 Access https://drive.google.com/drive/folders/1vAtmjor7JjmDoQILXNKsV99Xo2cPqbsw?usp=sharing for
 - original sharp images used for training (GOPRO and PASCAL VOC2010 datasets)
 - model weights resultant from training CNN to recognise 73 kernels
-- Matlab code from Sun et al used as reference 
+- Matlab code from Sun et al (official implementation) used as reference 
 - evaluation results of patchCNN, DeblurGAN and SRN-DeblurNet on two test benchmarks
 - model weights from training DeblurGAN with only horizontal blur dataset after 5, 10, 15, 20, 25, 30, 35 epochs. (Full training codes for DeblurGAN from Raphael Meudec's repository: https://github.com/RaphaelMeudec/deblur-gan)
+
+Implementations of patchCNN, DeblurGAN and SRN-DeblurNet used for testing:
+patchCNN: http://gr.xjtu.edu.cn/c/document_library/get_file?folderId=2076150&name=DLFE-78101.zip
+DeblurGAN: https://github.com/RaphaelMeudec/deblur-gan
+SRN-DeblurNet: https://github.com/jiangsutx/SRN-Deblur
